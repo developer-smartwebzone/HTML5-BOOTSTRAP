@@ -1,0 +1,151 @@
+@media (max-width: 1200px) and (min-width: 991px) {
+.nav > li > a {
+  padding: 10px 8px;
+}
+}
+@media (max-width: 991px) and (min-width: 767px) {
+.nav > li > a {
+  font-size: 12px;
+  padding: 10px 4px;
+}
+#section1, #section2, #section3, #section4 {
+  left: 55px;
+  position: absolute;
+  top: 100px;
+  width: 80%;
+}
+.color-box1 {
+  background: #6b49a2 url("../images/trip-nyc-thumb.jpg") no-repeat scroll 0 center / 120px auto;
+}
+.color-box2 {
+  background: #943f62 url("../images/trip-dallas-thumb.jpg") no-repeat scroll 0 center / 120px auto;
+}
+.color-box3 {
+  background: #1078a2 url("../images/trip-miami-thumb.jpg") no-repeat scroll 0 center / 120px auto;
+}
+.color-box1, .color-box2, .color-box3 {
+  padding: 20px 0 20px 130px;
+}
+.color-box1 > h5, .color-box2 > h5, .color-box3 > h5 {
+  font-size: 15px;
+}
+.color-box1 > p, .color-box2 > p, .color-box3 > p {
+  font-size: 12px;
+}
+.left-nav a {
+  font-size: 25px;
+}
+.left-nav li a i {
+  font-size: 40px;
+}
+.left-nav > ul {
+  margin: 0 15px 0 0;
+}
+.footer-nav > ul {
+  text-align: center;
+}
+.copyright p {
+  text-align: center;
+}
+.footer-nav li {
+  margin: 10px;
+}
+}
+@media (min-width: 767px) {
+.mobile-menu {
+  display: none;
+}
+}
+@media (max-width: 767px) {
+.nav > li > a {
+  font-size: 12px;
+  padding: 10px 4px;
+}
+.footer-nav > ul {
+  text-align: center;
+}
+.copyright p {
+  text-align: center;
+}
+.footer-nav li {
+  margin: 10px;
+}
+.left-nav {
+  border-right: medium none;
+  min-height: auto;
+  padding: 20px 0;
+  width: 100%;
+}
+.left-nav > ul {
+  max-width: 90%;
+}
+.right-section {
+  min-height: 710px;
+  width: 100%;
+}
+.left-nav a {
+  font-size: 20px;
+}
+.left-nav li a i {
+  font-size: 35px;
+}
+#section1, #section2, #section3, #section4 {
+  left: 8%;
+  top: 15px;
+  width: 90%;
+}
+.box .col-md-7.col-sm-7.col-xs-12 {
+  float: left;
+}
+.logo {
+  text-align: center;
+}
+.right-nav > ul {
+  float: left;
+  margin: 34px 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+.navbar.navbar-inverse {
+  display: none;
+}
+.logo {
+  display: none;
+}
+.home-banner h1 {
+  font-size: 36px;
+  max-width: 295px;
+}
+.dic-box1 {
+  background: #f9f9f9 none repeat scroll 0 0;
+  padding: 20px 0;
+  text-align: center;
+}
+.dic-box2 {
+  background: #f9f9f9 none repeat scroll 0 0;
+  padding: 20px 0;
+  text-align: center;
+}
+.mobile-img {
+  display: block;
+}
+}
+
+@media (max-width: 420px) {
+.right-section {
+  min-height: 800px;
+}
+.color-box1, .color-box2, .color-box3 {
+  padding: 20px 0 20px 115px;
+}
+.color-box1 {
+  background: #6b49a2 url("../images/trip-nyc-thumb.jpg") no-repeat scroll 0 center / 100px auto;
+}
+.color-box2 {
+  background: #943f62 url("../images/trip-dallas-thumb.jpg") no-repeat scroll 0 center / 100px auto;
+}
+.color-box3 {
+  background: #1078a2 url("../images/trip-miami-thumb.jpg") no-repeat scroll 0 center / 100px auto;
+}
+}
